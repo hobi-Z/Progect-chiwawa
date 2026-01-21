@@ -11,6 +11,8 @@
       --accent-color: #d8f17a;
       --text-dark: #1a2b23;
       --background: #e8e7e7;
+      --color-greay-whight: #e8e7e7;
+
   }
 
   * {
@@ -547,17 +549,260 @@
 
 
   /* четвертий текст */
-.Healthier-Eating-Habits{
-    position: relative;
-    top: -1295px;
-    left: 786px;
+  .Healthier-Eating-Habits {
+      background-color: var(--color-greay-whight);
+      width: 304px;
+      height: 412px;
+      border-radius: 144px;
+      margin-left: 1069px;
+      margin-top: -1049px;
 
-}
-.Healthier-Eating-Habits{
-    position: relative;
-    top: -1195px;
 
+  }
+
+  .Healthier-Eating-Habits2 {
+      position: relative;
+      top: 92px;
+      left: 34px;
+      font-size: 2rem;
+  }
+
+  .Easily-adopt-a-healthier-lifestyle {
+      position: relative;
+      top: 107px;
+      left: 33px;
+  }
+
+  /* пятий текст */
+  .Cost-Effective-Shoping {
+      margin-left: 136px;
+      margin-top: -28px;
+  }
+
+  .Cost-Effective-Shopping2 {
+
+      position: relative;
+      top: 92px;
+      left: 34px;
+      font-size: 2rem;
+  }
+
+  .Reduce-food-waste-and-save {
+      position: relative;
+      top: 107px;
+      left: 33px;
+  }
+
+  /* шостий текст */
+  .Seamless-Grocery-Delivery {
+      margin-left: 484px;
+      margin-top: -100px;
+  }
+
+  .Seamless-Grocery-Delivery2 {
+      position: relative;
+      top: -8px;
+      font-size: 2rem;
+  }
+
+  /* сьомий текст */
+  .Communiy-Support {
+      background-color: var(--primary-dark);
+
+      width: 304px;
+      height: 412px;
+      border-radius: 144px;
+      margin-left: 760px;
+      margin-top: -390px;
+  }
+
+  .Communiy-Support2 {
+      color: var(--accent-lime);
+      position: relative;
+      top: 80px;
+      left: 50px;
+      font-size: 2rem;
+  }
+
+  .Join-a-community-of-like-minded {
+      color: var(--white);
+      position: relative;
+      top: 97px;
+      left: 50px;
+  }
+
+  /* восьма картинка */
+  .Picture-1-2 {
+      width: 290px;
+      height: 290px;
+      margin-left: 1080px;
+      margin-top: -690px;
+  }
+
+  /* нижня частина 5 */
+  .TEXT-GREAN-e {
+      position: relative;
+      left: 100px;
+      top: 176px;
+      font-weight: 600;
+      font-size: 3.5rem;
+  }
+
+  .TEXT-GREAN-r {
+      position: relative;
+      left: 406px;
+      top: -78px;
+  }
+
+  .slesh-4 {
+      background-color: var(--primary-dark);
+      width: 2px;
+      height: 90px;
+      transform: rotate(30deg);
+      margin-left: 360px;
+      margin-top: 100px;
+  }
+
+  .bord-rals-blec {
+      border-radius: 50px;
+      border: 2px solid black;
+      width: 680px;
+      height: 260px;
+      margin-left: 180px;
+      margin-top: 0px;
+  }
+
+  .text-Savory-Quinoa {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 25px;
+      color: var(--primary-dark);
+      text-align: left;
+      max-width: 349px;
+      margin-left: 20px;
+      margin-top: 70px;
+      font-weight: bold;
+  }
+
+  .recipe-image {
+      width: 200px;
+      height: 200px;
+      margin-left: 410px;
+      margin-top: -110px;
+  }
+
+  .pointer-lime-Learn-More {
+      position: relative;
+      left: 70px;
+      top: -50px;
+      font-size: 16px;
+      color: var(--bg-black);
+      background-color: var(--accent-lime);
+      padding: 14px 50px;
+      border-radius: 50px;
+      border: 2px solid var(--bg-black);
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: 800;
+
+  }
+
+
+
+
+  .card {
+      background-color: #d4ed71;
+      display: flex;
+      align-items: center;
+      padding: 40px 60px;
+      border-radius: 200px;
+      max-width: 690px;
+      margin-left: 170px;
+      margin-top: 30px;
+  }
+
+  .image-container img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .content {
+      margin-left: 30px;
+  }
+
+  .content h2 {
+      margin: 0;
+      color: #2d3e30;
+      font-size: 24px;
+      line-height: 1.2;
+      font-weight: 500;
+  }
+
+  .btn {
+      display: inline-block;
+      width: fit-content;
+      padding: 10px 25px;
+      border: 1px solid #2d3e30;
+      border-radius: 30px;
+      text-decoration: none;
+      color: #2d3e30;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      margin-top: 15px;
+  }
+
+.card-v2 {
+  background-color: var(--background); /* Світло-сірий фон як на скріншоті */
+  display: flex;
+  justify-content: space-between; /* Розносить текст і фото по краях */
+  align-items: center;
+  padding: 40px 60px;
+  border-radius: 60px; /* Велике скруглення кутів */
+  max-width: 700px; /* Ви питали про ширину — тут її можна змінити */
+  font-family: sans-serif;
+  margin-top: 30px;
+  margin-left: 155px;
 }
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content h2 {
+  color: #2d3e33;
+  font-size: 32px;
+  margin: 0;
+  max-width: 400px;
+  font-weight: 500;
+}
+
+.btn-green {
+  background-color: #d4ed71; /* Салатовий колір кнопки */
+  color: var(--text-dark);
+  text-decoration: none;
+  padding: 15px 35px;
+  border-radius: 50px;
+  border: 1.5px solid var(--text-dark);
+  width: fit-content;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.image-container img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+
 
   /* Адаптивність для мобільних */
   /* @media (max-width: 1024px) {
