@@ -491,6 +491,8 @@
       margin-top: -103px;
   }
 
+
+  /* перший текс */
   .laim-text-personalizein {
       background-color: var(--accent-lime);
       width: 304px;
@@ -498,27 +500,6 @@
       border-radius: 144px;
       margin-left: 142px;
       margin-top: 21px;
-  }
-
-  .personalized-Nutrion {
-      position: relative;
-      top: 92px;
-      left: 34px;
-      font-size: 2rem;
-  }
-
-  .Provides-meal-plans-tailored-to {
-      position: relative;
-      top: 107px;
-      left: 33px;
-  }
-
-  .photo-Q {
-      width: 304px;
-      height: 412px;
-      position: relative;
-      top: -414px;
-      left: 463px;
   }
 
   .Time-Saving {
@@ -534,18 +515,52 @@
       left: 35px;
   }
 
+  /* другий текст */
   .text-Time-Saving-Convenience {
       position: relative;
       top: -871px;
       left: 786px;
   }
 
+  .personalized-Nutrion {
+      position: relative;
+      top: 92px;
+      left: 34px;
+      font-size: 2rem;
+  }
+
+  .Provides-meal-plans-tailored-to {
+      position: relative;
+      top: 107px;
+      left: 33px;
+  }
+
+  /* третья картинка */
+  .photo-Q {
+      width: 304px;
+      height: 412px;
+      position: relative;
+      top: -414px;
+      left: 463px;
+  }
 
 
 
+  /* четвертий текст */
+.Healthier-Eating-Habits{
+    position: relative;
+    top: -1295px;
+    left: 786px;
+
+}
+.Healthier-Eating-Habits{
+    position: relative;
+    top: -1195px;
+
+}
 
   /* Адаптивність для мобільних */
-  @media (max-width: 1024px) {
+  /* @media (max-width: 1024px) {
       .bento-grid {
           grid-template-columns: 1fr 1fr;
       }
@@ -575,7 +590,7 @@
       .hero-buttons {
           flex-direction: column;
           align-items: center;
-      }
+      } */
 
 
 
@@ -588,8 +603,8 @@
 
 
 
-      /* ------- */
-  }
+  /* ------- */
+
 
   .photo-girl {
       width: 125%;
