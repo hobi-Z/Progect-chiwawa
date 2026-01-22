@@ -379,6 +379,7 @@
   }
 
   /* нижня кастина 2 */
+  /* ///////////////////////////// */
 
   .TEXT-GREAN-A {
       position: relative;
@@ -422,6 +423,15 @@
       margin-left: 160px;
       margin-top: -560px;
 
+  }
+
+  .imges-flore {
+      width: 93%;
+      height: 93%;
+      object-fit: cover;
+      border-radius: 900px;
+      margin-top: 20px;
+      margin-left: 31px;
   }
 
   .text-border-radius {
@@ -468,6 +478,7 @@
   }
 
   /* нижня частина 4 */
+  /* ////////////////////////////// */
 
   .TEXT-GREAN-q {
       position: relative;
@@ -640,6 +651,9 @@
   }
 
   /* нижня частина 5 */
+  /* ////////////////////////// */
+
+
   .TEXT-GREAN-e {
       position: relative;
       left: 100px;
@@ -870,6 +884,105 @@
 
 
   /* ... */
+  /* нижня частина 6 */
+  /* ///////////////////// */
+  .TEXT-GREAN-t {
+      position: relative;
+      left: 100px;
+      top: -800px;
+      font-weight: 600;
+      font-size: 3.5rem;
+  }
+
+  .TEXT-GREAN-y {
+      position: relative;
+      left: 556px;
+      top: -72px;
+  }
+
+  .slesh-5 {
+      background-color: var(--primary-dark);
+      width: 2px;
+      height: 90px;
+      transform: rotate(30deg);
+      margin-left: 490px;
+      margin-top: -880px;
+  }
+
+  .testimonial-container {
+      display: flex;
+      gap: 20px;
+      padding: 40px;
+      background-color: #f9f9f7;
+      /* Світлий фон як на скріншоті */
+      font-family: sans-serif;
+      margin-top: -600px;
+  }
+
+  .testimonial-card {
+      flex: 1;
+      position: relative;
+      padding: 30px;
+      border-radius: 15px;
+      background-color: #f1f2ed;
+      /* Сіруватий фон звичайних карток */
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+
+  /* Стиль для ТОГО САМОГО зеленого елемента */
+  .testimonial-card.highlighted {
+      background-color: #263c33;
+      /* Темно-зелений колір */
+      color: #ffffff;
+      transform: scale(1.05);
+      /* Трохи більша за інші, як на фото */
+      z-index: 1;
+  }
+
+  .text {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      max-width: 178px;
+  }
+
+
+  .footer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+  }
+
+
+  .name {
+      font-weight: bold;
+      font-size: 14px;
+  }
+
+  .quote-icon {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      font-size: 40px;
+      opacity: 0.5;
+      font-family: serif;
+  }
+
+
+  .highlighted .quote-icon {
+      color: #c5d86d;
+      opacity: 1;
+  }
 
 
 
