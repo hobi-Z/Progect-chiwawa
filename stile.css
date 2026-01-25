@@ -984,6 +984,103 @@
       opacity: 1;
   }
 
+  /* нижня частина 7 */
+  /* ///////////////////// */
+  .TEXT-GREAN-u {
+      position: relative;
+      left: 100px;
+      top: 190px;
+      font-weight: 600;
+      font-size: 3.5rem;
+  }
+
+  .TEXT-GREAN-i {
+      position: relative;
+      left: 390px;
+      top: -71px;
+  }
+
+  .slesh-6 {
+      background-color: var(--primary-dark);
+      width: 2px;
+      height: 90px;
+      transform: rotate(30deg);
+      margin-left: 340px;
+      margin-top: 110px;
+  }
+
+  .plane-card {
+      border-radius: 40px;
+      padding: 30px;
+      max-width: 600px;
+      margin-top: 20px;
+      margin-left: 180px;
+      font-family: sans-serif;
+
+  }
+
+  .plan-card .plan-basic {
+      background-color: var(--background);
+      padding: 20px;
+      border-radius: 24px;
+      margin-bottom: 20px;
+
+
+  }
+
+  .plan-title {
+      font-size: 35px;
+      font-weight: 600;
+      margin-top: 90px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+
+  .plan-features {
+      font-weight: 900;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .plan-price {
+      font-size: 50px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+
+
+  .plan-features li {
+      font-size: 18px;
+      margin-bottom: 10px;
+  }
+  .text-per-month{
+      font-size: 20px;
+      font-weight: 500;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: -20px;
+  }
+  .prse-plane {
+      width: 600px;
+      height: 900px;
+      margin-left: 180px;
+      margin-top: 20px;
+      background-color: var(--accent-lime);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 50px;
+      border: 1px solid var(--bg-black);
+  }
 
 
 
